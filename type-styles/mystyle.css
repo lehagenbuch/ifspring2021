@@ -1,0 +1,46 @@
+html{
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+font-size: 25pt;
+color: rgb(255, 0, 212);
+}
+body {
+    background-color:rgb(247, 197, 214);
+    margin: 10%;
+}
+h2{
+    font-size: 20pt;
+    color: rgb(255, 0, 212);
+}
+h3{
+    font-size: 15pt;
+    color: rgb(217, 233, 0);
+}
+p{
+    font-size: 10pt;
+    color: rgb(0, 253, 241);
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.spaced{
+    letter-spacing: 1em;
+}
+.narrow{
+    letter-spacing: -1em;
+}
+.underline{
+    text-decoration: underline;
+}
+.line{
+    text-decoration: line-through;
+}
+.uppercase{
+text-transform: uppercase;
+}
