@@ -1,0 +1,140 @@
+html {
+    background-color: #f1bec7;
+}
+body
+{
+    width: 80%;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 
+{
+    font-size: 72pt;
+    line-height: 0pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    color:#813d48;
+    font-family: 'Arvo', serif;
+}
+h2
+{
+    font-size: 24pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#813d48;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+.intro {
+    background-image: url("photo2.jpg");
+    background-size: 50%;
+    background-repeat: round;
+}
+#teaser {
+    font-size: 16pt;
+    margin: 20px;
+    text-align: center;
+    color:#813d48;
+    font-family: 'Montserrat', sans-serif;
+}
+.photo1 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.table {
+    display: block;
+    padding: 20px;
+    text-align: left;
+}
+.ingredients {
+    background-color: rgba(221, 160, 221, 0.644);
+    padding: 10px;
+    margin: 30px;
+    width: 40%;
+    display: block;
+    float: left;
+    text-align: left;
+    line-height: 50%;
+    color:#813d48;
+    font-family: 'Montserrat', sans-serif;
+}
+.ingredients li {
+    margin-bottom: 10px;
+}
+.instructions {
+    background-color: rgba(176, 224, 230, 0.5);
+    margin: 30px;
+    padding: 10px;
+    width: 40%;
+    float: left;
+    color:#813d48
+}
+.cites {
+    clear: both;
+    width: 30%;
+    color:#813d48;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+@media(max-width: 1060px){
+    h1{
+        font-size: 48pt;
+    }
+    h2 {
+        font-size: 24pt;
+    }
+    .ingredients{
+        width:30%;
+    }
+    .instructions{
+        width: 30%;
+    }
+    .cites {
+        width: 50%;
+    }
+}
+
+@media(max-width: 640px){
+    h1{
+        font-size: 36pt;
+    }
+    h2 {
+        font-size: 18pt;
+    }
+    .ingredients{
+        width:80%;
+    }
+    .instructions{
+        width: 80%;
+    }
+    .cites {
+        width: 50%;
+    }
+}
+
+@media(max-width: 440px){
+    h1{
+        font-size: 24pt;
+    }
+    #teaser {
+        font-size: 14pt;
+    }
+    .ingredients{
+        width:100%;
+        margin: 0px;
+    }
+    .instructions{
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
