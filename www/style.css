@@ -1,0 +1,301 @@
+body {
+    font-family: 'roboto';
+    background-color: rgb(255, 151, 241);
+    margin: auto;
+    width: 90%;
+    color: rgb(184, 0, 144);
+}
+
+.button{
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(184, 0, 144);
+    color: lavenderblush;
+}
+div{
+    display: block;
+    max-width: 100%;
+}
+.nav{
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 170px;
+  background: linear-gradient(rgb(240, 212, 231),rgb(203, 248, 78),rgba(77, 255, 255, 0.747),rgba(255, 151, 241, 0.301))
+}
+.navButtons {
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(184, 0, 144);
+}
+h1 {
+    font-family: 'Tourney', cursive;
+    font-size: 72pt;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 24pt;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(155, 10, 123);
+    
+}
+h2 {
+    margin-top: 0%;
+    text-align: center;
+    margin-top: -2%;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(155, 10, 123);
+    font-size: 18pt;
+}
+h3 {
+    font-family: 'Tourney', cursive;
+    font-size: 36pt;
+    color: rgb(184, 0, 144);
+}
+h4 {
+    font-family: 'Tourney', cursive;
+    font-size: 24pt;
+    color: rgb(184, 0, 144);
+}
+.intro {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: -40%;
+    width: 70%;
+    float: right;
+    background-color: rgb(254, 215, 255);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(184, 0, 144);
+
+}
+#eel1 {
+    width: 60%;
+    margin-top: 15%;
+    padding-top: 5%;
+    color: rgb(184, 0, 144);
+}
+.lifeP {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 40%;
+    width: 60%;
+    float: left;
+    background-color: rgb(254, 215, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: rgb(184, 0, 144);
+}
+.familyP {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20%;
+    width: 60%;
+    float: right;
+    background-color: rgb(254, 215, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: rgb(184, 0, 144);
+}
+.familyLeft {
+    width: 35%;
+    margin-top: 40%;
+    float: left;
+    color: rgb(184, 0, 144);
+}
+#pelicanEel {
+    width: 100%;
+}
+#spagEel {
+    margin-top: 15%;
+    width: 100%;
+}
+.anthroP {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20%;
+    width: 60%;
+    float: left;
+    background-color: rgb(254, 215, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: rgb(184, 0, 144);
+}
+#unagi1 {
+    margin-top: 25%;
+    margin-right: -15%;
+    float: right;
+    width: 50%;
+}
+.caption {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2%;
+    width: 30%;
+    float: right;
+    color: rgb(184, 0, 144);
+}
+.sourcesP {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20%;
+    width: 40%;
+    float: left;
+    background-color: rgb(254, 215, 255);
+    padding-top: 20px;
+    padding-right: -15px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+    color: rgb(184, 0, 144);
+}
+#eel2 {
+    width: 40%;
+    float: right;
+    margin-right: -5%;
+    margin-top: 20%;
+}
+@media(max-width: 1200px) {
+    h1 {
+        font-size: 50pt;
+    }
+    h2 {
+        font-size: 14pt;
+    }
+    h3 {
+        font-size: 20pt;
+    }
+    h4 {
+        font-size: 20pt;
+    }
+
+}
+@media(max-width: 970px) {
+    h1 {
+        font-size: 40pt;
+    }
+    h2 {
+        font-size: 13pt;
+    }
+    #eel1 {
+        margin-top: 20%;
+    }
+    h3 {
+        font-size: 12pt;
+    }
+    h4 {
+        font-size: 12pt;
+    }
+    ul {
+        font-size: 8pt;
+    }
+    .familyP {
+        font-size: 8pt;
+        margin-top: 25%;
+    }
+    .caption {
+        font-size: 6pt;
+        margin-right: 15%;
+    }
+    #pelicaneel {
+        width: 50%;
+    }
+    #eel2 {
+        width: 35%;
+    }
+    .anthroP {
+        width: 50%;
+        margin-top: 25%;
+    }
+}
+@media(max-width: 760px) {
+    h1 {
+        font-size: 25pt;
+    }
+    h2 {
+        font-size: 8pt;
+    }
+    #eel1 {
+        margin-top: 20%;
+    }
+    .intro {
+        font-size: 8pt;
+    }
+    .button {
+        font-size: 8pt;
+    }
+    .familyP {
+        margin-top: 30%;
+    }
+    #eel2 {
+        margin-top: 30%;
+    }
+    .lifeP {
+        margin-top: 45%;
+    }
+    .sourcesP {
+        font-size: 8pt;
+    }
+}
+@media(max-width: 450px) {
+    h1 {
+        font-size: 20pt;
+    }
+    h2 {
+        font-size: 10pt;
+    }
+    #eel1 {
+        margin-top: 20%;
+    }
+    .intro {
+        font-size: 5pt;
+    }
+    .button {
+        font-size: 6pt;
+    }
+    h3 {
+        font-size: 8pt;
+    }
+    h4 {
+        font-size: 8pt;
+    }
+    ul {
+        font-size: 5pt;}
+    p {
+        font-size: 5pt;
+    }
+    .familyP {
+        font-size: 5pt;
+        width: 40%;
+        margin-top: 40%;
+    }
+    .caption {
+        font-size: 3pt;
+        margin-right: 15%;
+    }
+    #pelicaneel {
+        width: 10%;
+    }
+    #eel2 {
+        margin-top: 40%;
+        width: 30%;
+    }
+    .lifeP {
+        margin-top: 50%;
+    }
+    .sourcesP {
+        font-size: 5pt;
+    }
+}
